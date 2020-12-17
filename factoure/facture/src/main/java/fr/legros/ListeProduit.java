@@ -14,7 +14,7 @@ public class ListeProduit {
     
     }
 
-    public void ajoueProduit(int qte, Produit prod) {
+    public void ajoutProduit(int qte, Produit prod) {
 
         liProd.put(prod, qte);
     }

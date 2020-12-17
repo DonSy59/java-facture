@@ -14,11 +14,18 @@ class AppTest {
     @Test
     void testGetTva() {
 
-        TypeProduit luxe = new TypeProduit(18.9, "mobilier");
+        TypeProduit luxe = new TypeProduit(18.9, "charcuterie");
         double tvaLuxe = luxe.getTva();
 
         assertEquals(18.9, tvaLuxe);
 
+    }
+    /**
+     * Rigorous Test.
+     */
+    @Test
+    void  testAjoutProduit(){
+        assertEquals();
     }
 
     
